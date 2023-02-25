@@ -155,7 +155,28 @@ section {
     font-size: 8px;
   }
 
+  section {
+    padding: 30px;
+  }
+
+  main h2 {
+    font-size: 12px;
+  }
+
+  main h3 {
+    font-size: 24px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  .img-responsive {
+    max-width: 100%;
   }
 }
