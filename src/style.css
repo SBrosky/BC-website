@@ -232,4 +232,12 @@ section {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
+
+  .card img {
+    display: none;
+  }
+
+  .card .embed {
+    aspect-ratio: 16/9;
+  }
 }
