@@ -176,6 +176,19 @@ section {
   background-color: #f8f8f8;
   text-align: center;
 }
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  aspect-ratio: 1/1;
+  width: 100%;
+}
 
 @media (max-width: 960px) {
   header {
@@ -218,9 +231,5 @@ section {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-  }
-
-  .img-responsive {
-    max-width: 100%;
   }
 }
